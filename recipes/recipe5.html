@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuanRecipe</title>
+
+    <link rel="stylesheet" href="recipe.css">
+    <link rel="stylesheet" href="recipeMedia.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <script src="recipe.js" defer></script>
+    <script src="https://kit.fontawesome.com/effd3867de.js" crossorigin="anonymous"></script>
+</head>
+<body onload="getData(6)">
+    <nav>
+        <div class="logo">
+            <a href="/index.html" class="logo">JuanRecipe</a>
+        </div>
+        <div class="navLinks">
+            <a href="#footer">About</a>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="detailSection">
+            <div class="imageContainer">
+                <img class="recipeImage" src="">
+            </div>
+            <div class="descriptionContainer">
+                <p class="recipeName"></p>
+                <p class="description"></p>
+            </div>
+        </div>
+        <div class="ingredientContainer">
+            <p class="ingredientTitle">Ingredients :</p>
+        </div>
+        <div class="instructionContainer">
+            <p class="instructionTitle">Instructions :</p>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="aboutContainer">
+            <span>JuanRecipe</span>
+            <p class="aboutDescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, minima. Qui voluptas tempore ab facere placeat cumque esse odit minus.
+            </p>
+            <button class="subsBtn">Subscribe</button>
+        </div>
+        <div class="linkContainer">
+            <p class="linkTitle">Follow us on:</p>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div class="suggestionContainer">
+            <p class="suggestionTitle">Suggestions</p>
+            <form onsubmit="return false">
+                <input type="text" placeholder="Email:" autocomplete="off">
+                <textarea cols="30" rows="4" placeholder="Message:"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+        <span class="credits">
+            Copyright © 2022 JuanRecipe. All Rights Reserved <br>
+            Website created by <a href="">Bullet</a>
+        </span>
+    </footer>
+</body>
+</html>

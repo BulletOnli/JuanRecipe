@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuanRecipe</title>
+
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQ.css">
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/effd3867de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" class="logo">JuanRecipe</a>
+            </div>
+            <div class="navLinks">
+                <a href="#footer">About</a>
+            </div>
+        </nav>
+        <div class="brandContainer">
+            <p class="brand">JuanRecipe</p>
+            <p class="brandDescription">* Your Juan and only Recipe *</p>
+        </div>
+    </header>
+    <main>
+        <p class="recipeList">RECIPE LIST</p>
+        <div class="recipeListContainer">
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Fruit Jam Chocolate-Covered Rolls</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe1')"></i>
+                <div class="recipeDescription" id="recipe1">
+                    <div class="imageContainer">
+                        <img src="/images/recipe1.jpeg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "This recipe is the DIY version of one of my favorite childhood snacks, Chocoroles. Although the original recipe includes pineapple jam, you can replace it with any flavor of fruit jam for your own spin on this chocolatey and delicious treat."                        </p>
+                        <p class="cookingTime">Cooking Time: </p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">1</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">0</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe1.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Halloween Candy Popcorn</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe2')"></i>
+                <div class="recipeDescription" id="recipe2">
+                    <div class="imageContainer">
+                        <img src="/images/recipe2.jpg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "This Halloween candy popcorn mix is perfect for your next Hallo-Fest or spooky movie night. Using the Tasty Popcorn Popper makes this a super easy and fun snack. It’s the perfect way to use up leftover Halloween candy!"
+                        </p>
+                        <p class="cookingTime">Cooking Time: 3 minutes</p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">13</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">0</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe2.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Easy Fruity Soft Serve</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe3')"></i>
+                <div class="recipeDescription" id="recipe3">
+                    <div class="imageContainer">
+                        <img src="/images/recipe3.jpeg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "This cold and creamy treat is an easy fix on a hot day. You can add whatever frozen fruits you have on hand, but ours always includes refreshingly sweet watermelon."                        </p>
+                        <p class="cookingTime">Cooking Time: 10 minutes</p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">26</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">3</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe3.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Korean Corn Cheese Spicy Ramen</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe4')"></i>
+                <div class="recipeDescription" id="recipe4">
+                    <div class="imageContainer">
+                        <img src="/images/recipe4.jpeg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "We combined two Korean classics corn cheese and spicy ramento make this garlicky, spicy, and cheesy dish thats sure to be a snack time favorite!"
+                        </p>
+                        <p class="cookingTime">Cooking Time: 10 minutes</p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">33</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">8</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe4.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Caramel Apple Cream Cheese Board</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe5')"></i>
+                <div class="recipeDescription" id="recipe5">
+                    <div class="imageContainer">
+                        <img src="/images/recipe5.jpg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "This caramel apple cream cheese board is perfect for the fall season! If you dont want to go the trouble of making cheesecake or caramel apples from scratch, this is the recipe for you! It comes together quickly and is super delicious, without being overly sweet."
+                        </p>
+                        <p class="cookingTime">Cooking Time: </p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">24</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">2</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe5.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Loaded Baked Potato Cream Cheese Board</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe6')"></i>
+                <div class="recipeDescription" id="recipe6">
+                    <div class="imageContainer">
+                        <img src="/images/recipe6.jpg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "This loaded baked potato cream cheese board comes together almost instantly! It’s no fuss, but will definitely impress your guests. It’s perfect for the holidays too, so customize it with your own toppings!"
+                        </p>
+                        <p class="cookingTime">Cooking Time: </p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">3</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">0</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe6.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Sun-Dried Tomato Skillet Chicken</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe7')"></i>
+                <div class="recipeDescription" id="recipe7">
+                    <div class="imageContainer">
+                        <img src="/images/recipe7.jpg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "Say hello to your new favorite 30-minute skillet chicken dish. Made with chicken thighs and a savory sun-dried tomato sauce, it pairs wonderfully with mashed potatoes or pasta."
+                        </p>
+                        <p class="cookingTime">Cooking Time: 25 minutes</p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">0</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">0</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe7.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Air Fryer Peach Cobbler</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe8')"></i>
+                <div class="recipeDescription" id="recipe8">
+                    <div class="imageContainer">
+                        <img src="/images/recipe8.jpg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "Looking for a summery dessert without the hassle of turning on the oven? This peach cobbler for two is sure to satisfy your sweet tooth in no time at all. Simply split a ripe peach in half, top with a brown sugar-oat crumble, and air fry to golden brown perfection."
+                        </p>
+                        <p class="cookingTime">Cooking Time: 15 minutes</p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">10</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">0</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe8.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Shrimp Summer Salad With Creamy Cilantro Dressing</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe9')"></i>
+                <div class="recipeDescription" id="recipe9">
+                    <div class="imageContainer">
+                        <img src="/images/recipe9.jpeg">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "Summer is coming to an end, so we have to take advantage of all the bountiful seasonal produce while we still can. Enjoy this refreshing and delicious salad with all the flavors summer has to offer, like cucumbers, mini heirloom tomatoes, baby corn, mango, and avocado."
+                        </p>
+                        <p class="cookingTime">Cooking Time: </p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">16</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">0</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe9.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipeContainer fade-in">
+                <p class="recipeTitle">Filipino Mango Ice Candy</p>
+                <i class="fa-solid fa-angle-down" onclick="dragDown('recipe10')"></i>
+                <div class="recipeDescription" id="recipe10">
+                    <div class="imageContainer">
+                        <img src="/images/recipe10.png">
+                    </div>
+                    <div class="textContainer">
+                        <p class="descriptionText">Description:</p>
+                        <p class="description">
+                            "Mango ice candy is a popular dessert in the Philippines. This freeze pop is a deliciously refreshing treat on hot summer days."
+                        </p>
+                        <p class="cookingTime">Cooking Time: 3 minutes</p>
+                        <div class="userRatings">
+                            <div class="ratings">
+                                <span>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <p class="likeCount">26</p>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-thumbs-down"></i>   
+                                    <p class="likeCount">2</p>
+                                </span>
+                            </div>
+                            <button class="checkRecipe">
+                                <a href="/recipes/recipe10.html">Check Recipe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <footer id="footer">
+            <div class="aboutContainer">
+                <span>JuanRecipe</span>
+                <p class="aboutDescription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, minima. Qui voluptas tempore ab facere placeat cumque esse odit minus.
+                </p>
+                <button class="subsBtn">Subscribe</button>
+            </div>
+            <div class="linkContainer">
+                <p class="linkTitle">Follow us on:</p>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="suggestionContainer">
+                <p class="suggestionTitle">Suggestions</p>
+                <form onsubmit="return false">
+                    <input type="text" placeholder="Email:" autocomplete="off">
+                    <textarea cols="30" rows="4" placeholder="Message:"></textarea>
+                    <button>Submit</button>
+                </form>
+            </div>
+            <span class="credits">
+                © 2022 JuanRecipe. All Rights Reserved <br>
+                Website created by <a href="">Bullet</a>
+            </span>
+        </footer>
+    </main>
+    
+
+
+</body>
+</html>
